@@ -50,6 +50,24 @@ public class NganHang {
                                                         }
                                                 }  
                                         }while(chose1 > 0 && chose1 < 4);
+                                };break;
+                                case 2:{
+                                        int chose2;
+                                        do{
+                                                System.out.println("***************MENU EMPLOYEE*************");
+                                                System.out.println("| 1. Nhập tên.                          |");
+                                                System.out.println("| 2. Nhập địa chỉ.                      |");
+                                                System.out.println("| 3. Xem thông tin nhân viên.           |");
+                                                System.out.println("| Nhập số bất kì để kết thúc.           |");
+                                                System.out.println("*****************************************");
+                                                System.out.print("Nhập chức năng cần thực hiện: ");
+                                                chose2 = in.nextInt();
+                                                switch(chose2){
+                                                        case 1:{
+                                                                
+                                                        }
+                                                }                                                
+                                        }while(chose2>0 && chose2 <4);
                                 }
                         }
                         

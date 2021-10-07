@@ -16,8 +16,8 @@ public class Employee {
 
     }
     void getSalary(){
-        salary = in.nextLine();
         System.out.print("Nhập lương: ");
+        salary = in.nextLine();
     }
     void show(){
         System.out.println("Tên nhân viên: "+name);

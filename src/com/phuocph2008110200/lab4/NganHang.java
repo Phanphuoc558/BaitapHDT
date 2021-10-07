@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class NganHang {
         public static void main(String[] args) {
                 Account account = new Account();
+                Employee employee = new Employee();
                 Scanner in = new Scanner(System.in);
                 int chose;
                 do{
@@ -55,17 +56,21 @@ public class NganHang {
                                         int chose2;
                                         do{
                                                 System.out.println("***************MENU EMPLOYEE*************");
-                                                System.out.println("| 1. Nhập tên.                          |");
-                                                System.out.println("| 2. Nhập địa chỉ.                      |");
+                                                System.out.println("| 1. Nhập tên nhân viên.                          |");
+                                                System.out.println("| 2. Nhập lương.                        |");
                                                 System.out.println("| 3. Xem thông tin nhân viên.           |");
                                                 System.out.println("| Nhập số bất kì để kết thúc.           |");
                                                 System.out.println("*****************************************");
                                                 System.out.print("Nhập chức năng cần thực hiện: ");
                                                 chose2 = in.nextInt();
                                                 switch(chose2){
-                                                        case 1:{
-                                                                
-                                                        }
+                                                        case 1:employee.getName();break;
+                                                        case 2:employee.getSalary();break;
+                                                        case 3:{
+                                                                employee.show();
+                                                                System.out.print("Nhập số bất kì để quay về menu sau khi kiểm tra kỹ thông tin.");
+                                                                int i = in.nextInt();
+                                                        }                                                        
                                                 }                                                
                                         }while(chose2>0 && chose2 <4);
                                 }

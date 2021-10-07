@@ -2,7 +2,7 @@
 # Ngày Tạo: 23 Sept 2021
 # Tác Giả: Phan Hửu Phước
 */
-package com.phuocph2008110200.Lab3;
+package com.phuocph2008110200.lab3;
 
 import java.util.Scanner;
 

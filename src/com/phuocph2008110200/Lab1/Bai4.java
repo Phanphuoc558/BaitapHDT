@@ -1,4 +1,4 @@
-package com.phuocph2008110200.Lab1;
+package com.phuocph2008110200.lab1;
 
 import java.util.Scanner;
 

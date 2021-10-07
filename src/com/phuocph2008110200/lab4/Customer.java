@@ -16,8 +16,8 @@ public class Customer {
 
     }
     void getAddress(){
-        address = in.nextLine();
         System.out.print("Nhập địa chỉ khách hàng: ");
+        address = in.nextLine();
     }
     void show(){
         System.out.println("Tên khách hàng: "+name);

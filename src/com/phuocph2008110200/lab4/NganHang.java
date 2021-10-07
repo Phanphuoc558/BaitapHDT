@@ -10,6 +10,7 @@ public class NganHang {
         public static void main(String[] args) {
                 Account account = new Account();
                 Employee employee = new Employee();
+                Customer customer = new Customer();
                 Scanner in = new Scanner(System.in);
                 int chose;
                 do{
@@ -17,7 +18,7 @@ public class NganHang {
                         System.out.println("| 1. Rút, gửi, xem thông tin tài khoản. |");
                         System.out.println("| 2. Nhân viên.                         |");
                         System.out.println("| 3. Khách hàng.                        |");
-                        System.out.println("| Nhập số bất kì để kết thúc.           |");
+                        System.out.println("| Nhập số khác để kết thúc.             |");
                         System.out.println("*****************************************");
                         System.out.print("Nhập chức năng cần thực hiện: ");
                         chose = in.nextInt();
@@ -29,7 +30,7 @@ public class NganHang {
                                                 System.out.println("| 1. Rút tiền.                          |");
                                                 System.out.println("| 2. Gửi tiền.                          |");
                                                 System.out.println("| 3. Xem thông tin tài khoản.           |");
-                                                System.out.println("| Nhập số bất kì để kết thúc.           |");
+                                                System.out.println("| Nhập số khác để kết thúc.             |");
                                                 System.out.println("*****************************************");
                                                 System.out.print("Nhập chức năng cần thực hiện: ");
                                                 chose1 = in.nextInt();
@@ -56,10 +57,10 @@ public class NganHang {
                                         int chose2;
                                         do{
                                                 System.out.println("***************MENU EMPLOYEE*************");
-                                                System.out.println("| 1. Nhập tên nhân viên.                          |");
+                                                System.out.println("| 1. Nhập tên nhân viên.                |");
                                                 System.out.println("| 2. Nhập lương.                        |");
                                                 System.out.println("| 3. Xem thông tin nhân viên.           |");
-                                                System.out.println("| Nhập số bất kì để kết thúc.           |");
+                                                System.out.println("| Nhập số khác để kết thúc.             |");
                                                 System.out.println("*****************************************");
                                                 System.out.print("Nhập chức năng cần thực hiện: ");
                                                 chose2 = in.nextInt();
@@ -73,6 +74,29 @@ public class NganHang {
                                                         }                                                        
                                                 }                                                
                                         }while(chose2>0 && chose2 <4);
+                                };break;
+                                case 3:{
+                                        int chose3;
+                                        do{
+                                                System.out.println("***************MENU CUSTOMER*************");
+                                                System.out.println("| 1. Nhập tên khách hàng.               |");
+                                                System.out.println("| 2. Nhập địa chỉ.                      |");
+                                                System.out.println("| 3. Xem thông tin khách hàng.          |");
+                                                System.out.println("| Nhập số khác để kết thúc.             |");
+                                                System.out.println("*****************************************");
+                                                System.out.print("Nhập chức năng cần thực hiện: ");
+                                                chose3 = in.nextInt();
+                                                switch(chose3){
+                                                        case 1:customer.getName();break;
+                                                        case 2:customer.getAddress();break;
+                                                        case 3:{
+                                                                customer.show();
+                                                                System.out.print("Nhập số bất kì để quay về menu sau khi kiểm tra kỹ thông tin.");
+                                                                int i = in.nextInt();
+                                                        }
+                                                }                                                
+                                        }while(chose3 >0 && chose3 <4);
+
                                 }
                         }
                         

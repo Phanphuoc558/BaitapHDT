@@ -11,16 +11,16 @@ public class Employee {
     String salary;
     Scanner in = new Scanner(System.in);
     void getName(){
-        System.out.print("Nhập tên khách hàng: ");
+        System.out.print("Nhập tên nhân viên: ");
         name = in.nextLine();
 
     }
     void getSalary(){
         salary = in.nextLine();
-        System.out.print("Nhập địa chỉ khách hàng: ");
+        System.out.print("Nhập lương: ");
     }
     void show(){
-        System.out.println("Tên khách hàng: "+name);
-        System.out.println("Địa chỉ khách hàng: "+salary);
+        System.out.println("Tên nhân viên: "+name);
+        System.out.println("Lương: "+salary);
     }
 }

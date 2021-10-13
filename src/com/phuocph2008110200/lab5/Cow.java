@@ -14,4 +14,7 @@ public class Cow {
         System.out.println("Số tuổi: "+age);
         System.out.println("Cân nặng: "+weight+" Kg");
     }
+    Cow(){
+
+    }
 }

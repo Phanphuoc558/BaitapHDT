@@ -37,7 +37,13 @@ public class Computer {
         System.out.println("Giá: "+gia+" VND");
         System.out.println("Năm bảo hành: "+namBaoHanh+" năm");
     }
-    Computer(){
-
+    Computer(String company,String winx,String CPU,int year,int RAM,int price,int insurance){
+        nhaSanXuat =company;
+        heDieuHanh =winx;
+        cpu=CPU;
+        namSanXuat=year;
+        ram = RAM;
+        gia = price;
+        namBaoHanh = insurance;
     }
 }

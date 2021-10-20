@@ -5,7 +5,7 @@
 package com.phuocph2008110200.lab6;
 
 public class Square {
-    String music= "Square sound";
+    String music= "Đây là hình vuông nà nà ná na na!!!";
     boolean click = false;
     void click(){
         click = !click;
@@ -13,7 +13,7 @@ public class Square {
     void play(){
         if(click ==true){
             System.out.println("Xoay 360"); 
-            System.out.println("Đây là hình vuông nà nà ná na na!!!");
+            System.out.println(music);
         }
         else
             System.out.println(" Đã ngừng !!!");	

@@ -5,7 +5,7 @@
 package com.phuocph2008110200.lab6;
 
 public class Circle {
-    String music= "Circle sound";
+    String music= "Đây là hình tròn à à á a a!!!";
     boolean click = false;
     void click(){
         click = !click;
@@ -13,7 +13,7 @@ public class Circle {
     void play(){
         if(click ==true){
             System.out.println("Xoay 360"); 
-            System.out.println("Đây là hình tròn à à á a a!!!");
+            System.out.println(music);
         }
         else
             System.out.println(" Đã ngừng !!!");	

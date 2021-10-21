@@ -5,17 +5,19 @@
 package com.phuocph2008110200.lab6;
 
 public class Triangle {
-    String music= "Đây là hình tam giác là là lá la la!!!";
+    String music= "Triangle.AIF";
     boolean click = false;
     void click(){
         click = !click;
 	}
-    void play(){
+    void playSound(){
         if(click ==true){
-            System.out.println("Xoay 360"); 
-            System.out.println(music);
-        }
-        else
-            System.out.println(" Đã ngừng !!!");	
+            System.out.println("Phát ra file âm thanh "+music);
+        }	
     }
+    void rotate(){
+        if(click==true)
+        System.out.println("Xoay 360 độ quanh tâm theo chiều kim đồng hồ");
+    }
+    
 }

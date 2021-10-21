@@ -5,17 +5,18 @@
 package com.phuocph2008110200.lab6;
 
 public class Square {
-    String music= "Đây là hình vuông nà nà ná na na!!!";
+    String music= "Square.AIF";
     boolean click = false;
     void click(){
         click = !click;
 	}
-    void play(){
+    void playSound(){
         if(click ==true){
-            System.out.println("Xoay 360"); 
-            System.out.println(music);
-        }
-        else
-            System.out.println(" Đã ngừng !!!");	
+            System.out.println("Phát ra file âm thanh "+music);
+        }	
+    }
+    void rotate(){
+        if(click==true)
+        System.out.println("Xoay 360 độ quanh tâm theo chiều kim đồng hồ");
     }
 }

@@ -9,11 +9,18 @@ public class TestDrive {
         Square square = new Square();
         Circle circle = new Circle();
         Triangle triangle = new Triangle();
+        Amoeba amoeba = new Amoeba(3,5);
         square.click();
-        square.play();
+        square.rotate();
+        square.playSound();
         circle.click();
-        circle.play();
+        circle.rotate();
+        circle.playSound();
         triangle.click();
-        triangle.play();
+        triangle.rotate();
+        triangle.playSound();
+        amoeba.click();
+        amoeba.rotate();
+        amoeba.playSound();
     }
 }

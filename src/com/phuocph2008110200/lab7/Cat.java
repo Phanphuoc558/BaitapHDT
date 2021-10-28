@@ -14,8 +14,8 @@ public class Cat extends Claws{
         System.out.println("Bắt được N con chuột");
     }
     Cat(String giong,int tuoi,String mau){
-        breed = giong;
-        age = tuoi;
+        setBreed(giong);
+        setAge(tuoi);
         color = mau;
     }
 }

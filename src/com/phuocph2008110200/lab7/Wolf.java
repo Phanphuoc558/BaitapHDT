@@ -6,7 +6,8 @@ package com.phuocph2008110200.lab7;
 
 public class Wolf extends Canine{
     Wolf(){
-        breed = "Sói xám";
+        super();
+        this.setBreed("Sói Xám");
 
     }
 }

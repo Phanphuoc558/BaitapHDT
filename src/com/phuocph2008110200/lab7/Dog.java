@@ -7,8 +7,8 @@ package com.phuocph2008110200.lab7;
 public class Dog extends Canine{
     private String color;
     Dog(String giong,int tuoi,String mauLong){
-        breed = giong;
-        age = tuoi;
+        setBreed(giong);
+        setAge(tuoi);
         color = mauLong;
     }
     protected void chaseCat(){

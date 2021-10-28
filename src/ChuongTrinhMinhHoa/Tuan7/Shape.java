@@ -6,7 +6,7 @@ package ChuongTrinhMinhHoa.Tuan7;
 
 public class Shape {
     private String music;
-    private boolean click = false;
+    protected boolean click = false;
     public void click(){
         click = !click;
 	}
@@ -19,5 +19,17 @@ public class Shape {
         if(click==true){
             System.out.println("Xoay 360 độ quanh theo chiều kim đồng hồ");
         }
+    }
+    protected Shape(String m){
+        music = m;
+    }
+    public void setMusic(String music) {
+        this.music = music;
+    }
+    public String getMusic() {
+        return music;
+    }
+    public Shape(){
+
     }
 }

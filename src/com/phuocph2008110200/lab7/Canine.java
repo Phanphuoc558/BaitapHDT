@@ -11,4 +11,7 @@ public class Canine extends Animal{
     protected void makeNoise() {
         System.out.println("Húúúúuuuuuu!!!");
     }
+    protected Canine(){
+        super();
+    }
 }

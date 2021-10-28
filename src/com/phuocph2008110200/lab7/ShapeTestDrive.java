@@ -9,7 +9,7 @@ public class ShapeTestDrive {
         Circle circle = new Circle("Circle.AIF");
         Square square = new Square("Square.AIF");
         Triangle triangle = new Triangle("Triangle.AIF");
-        Amoeba amoeba = new Amoeba();
+        Amoeba amoeba = new Amoeba("Amoeba.HIF",2,3);
         circle.click();
         circle.rotate();
         circle.playSound();

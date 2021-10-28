@@ -5,7 +5,10 @@
 package ChuongTrinhMinhHoa.Tuan7;
 
 public class Circle extends Shape{
-    Circle(){
-        
+    public Circle(){
+        super();
+    }
+    public Circle(String s){
+        super(s);
     }
 }

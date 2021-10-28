@@ -5,11 +5,11 @@
 package com.phuocph2008110200.lab7;
 
 public class Animal {
-    protected String breed;
-    protected float weight;
-    protected String food;
-    protected String location;
-    protected int age;
+    private String breed;
+    private float weight;
+    private String food;
+    private String location;
+    private int age;
     protected void makeNoise(){
         System.out.println("A A A A!!!");
     }
@@ -21,5 +21,20 @@ public class Animal {
     }
     protected void roam(){
         System.out.println("Chuẩn bị gank bot lấy double kill!!!");
+    }
+    Animal(){
+        System.out.println("Tạo animal....");
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+    public String getBreed() {
+        return breed;
     }
 }

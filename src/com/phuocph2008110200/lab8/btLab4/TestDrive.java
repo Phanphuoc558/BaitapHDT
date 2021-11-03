@@ -23,11 +23,10 @@ public class TestDrive {
         n = in.nextInt();
         for(int i=0;i<n;i++){
             SanPham sp = new SanPham();
+            sp.nhap();
             list.add(sp);
         }
-        for(SanPham sPham: list){
-            sPham.nhap();
-        }
+        System.out.println("Xuat thong tin cac san pham trong list");
         for(SanPham sPham: list){
             sPham.xuat();
         }

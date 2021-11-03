@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "ChuongTrinhMinhHoa.Tuan8.test",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListTestDrive",
+            "request": "launch",
+            "mainClass": "ChuongTrinhMinhHoa.Tuan8.ArrayListTestDrive",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDrive",
+            "request": "launch",
+            "mainClass": "com.phuocph2008110200.lab8.btLab4.TestDrive",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.phuocph2008110200.lab8.btLab4.Main",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDrive",
+            "request": "launch",
+            "mainClass": "com.phuocph2008110200.lab8.btLab7.Bai3.TestDrive",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDrive",
+            "request": "launch",
+            "mainClass": "com.phuocph2008110200.lab8.btLab7.Bai2.TestDrive",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestDrive",
+            "request": "launch",
+            "mainClass": "com.phuocph2008110200.lab8.btLab7.TestDrive",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        }
+    ]
+}

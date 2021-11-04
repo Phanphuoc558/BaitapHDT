@@ -30,6 +30,7 @@ public class HocVien extends Nguoi{
     }
     HocVien(String hoTen,String diaChi){
         super(hoTen, diaChi);
+        soLuongHV++;
         setDiemMonhoc1();
         setDiemMonhoc2();
     }

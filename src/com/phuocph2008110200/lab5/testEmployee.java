@@ -17,5 +17,6 @@ public class testEmployee {
         employee.getBoPhan("IT");
         employee.getSalary(2000);
         employee.showData();
+        in.close();
     }
 }

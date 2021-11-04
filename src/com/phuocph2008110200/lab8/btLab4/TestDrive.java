@@ -30,5 +30,6 @@ public class TestDrive {
         for(SanPham sPham: list){
             sPham.xuat();
         }
+        in.close();
      }
 }

@@ -76,5 +76,6 @@ public class Bai4 {
                 System.out.println("Số tiền phải trả là: "+(50*1000+(x-50)*1200));
             System.out.println("Nhập số bất kì để quay lại MENU.");
             int y = in.nextInt();
+            in.close();
     }
 }

@@ -4,8 +4,6 @@
 */
 package ChuongTrinhMinhHoa.Tuan7;
 
-import com.phuocph2008110200.lab6.Square;
-
 public class IntSquare {
     private int squareValue;
     private int calculateSquare(int squareValue){

@@ -18,5 +18,6 @@ public class AccountTestDrive {
         int b = in.nextInt();
         account.withdraw(b);
         account.showData();
+        in.close();
     }
 }

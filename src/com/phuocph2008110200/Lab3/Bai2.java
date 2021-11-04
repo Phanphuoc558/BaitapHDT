@@ -16,5 +16,6 @@ public class Bai2 {
             }
             System.out.println();
         }
+        in.close();
     }
 }

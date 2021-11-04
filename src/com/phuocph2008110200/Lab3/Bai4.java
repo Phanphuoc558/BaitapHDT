@@ -22,5 +22,6 @@ public class Bai4 {
             System.out.print("Nhập vào điểm của "+a[i]);
             b[i] = in.nextFloat();
         }
+        in.close();
     }
 }

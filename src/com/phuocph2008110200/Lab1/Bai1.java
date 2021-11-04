@@ -10,5 +10,6 @@ public class Bai1 {
         System.out.print("Nhập vào điểm: ");
         float diem = in.nextFloat();
         System.out.print(hoten+" "+diem+" điểm.");
+        in.close();
     }
 }

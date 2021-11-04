@@ -22,5 +22,6 @@ public class Bai1 {
             System.out.println("Đây là số nguyên tố ");
         else
             System.out.println("Đây không là số nguyên tố ");
+        in.close();
     }
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QuanLyTestDrive",
+            "request": "launch",
+            "mainClass": "com.phuocph2008110200.kiemtragiuaky.QuanLyTestDrive",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
+            "name": "Launch Testdrive",
+            "request": "launch",
+            "mainClass": "com.phuocph2008110200.kiemtragiuaky.Testdrive",
+            "projectName": "BaiTapLab_9a1c9302"
+        },
+        {
+            "type": "java",
             "name": "Launch test",
             "request": "launch",
             "mainClass": "ChuongTrinhMinhHoa.Tuan8.test",

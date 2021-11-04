@@ -31,5 +31,6 @@ public class Bai3 {
         }
         tbsum=sum/count;
         System.out.println("Trung bình cộng của các số chia hết cho 3 có trong mảng là: "+tbsum);
+        in.close();
     }
 }

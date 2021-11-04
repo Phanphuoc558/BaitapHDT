@@ -101,5 +101,6 @@ public class NganHang {
                         }
                         
                 }while(chose > 0 && chose < 4);
-}
+        in.close();
+        }
 }

@@ -5,7 +5,7 @@ public class QuanLyTestDrive {
         DanhSachQuanLy list = new DanhSachQuanLy();
         HocVien hocVien = new HocVien("Phan Huu Phuoc","85/5");
         NhanVien nhanVien = new NhanVien("Tran Le Quang Vinh","100/8");
-        KhachHang khachHang = new KhachHang("Nguyen Tuan Phat", "100/9", "VN group", 3000000);
+        KhachHang khachHang = new KhachHang("Nguyen Tuan Phat", "100/9","VN group");
         list.themNguoi(hocVien);
         list.themNguoi(nhanVien);
         list.themNguoi(khachHang);

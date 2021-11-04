@@ -14,9 +14,21 @@ public class HocVien extends Nguoi{
     public String toString() {
         return super.toString()+" "+diemMonhoc1+" "+diemMonhoc2+" "+" Diem trung binh "+diemTB();
     }
-    HocVien(String hoTen,String diaChi,float diemMonhoc1,float diemMonhoc2){
+    public void setDiemMonhoc1() {
+        System.out.println("Nhap vao diem mon 1: ");
+        do{
+            diemMonhoc1=in.nextFloat();
+        }while(diemMonhoc1<0&&diemMonhoc1>10);
+    }
+    public void setDiemMonhoc2() {
+        System.out.println("Nhap vao diem mon 2: ");
+        do{
+            diemMonhoc2=in.nextFloat();
+        }while(diemMonhoc2<0&&diemMonhoc2>10);
+    }
+    HocVien(String hoTen,String diaChi){
         super(hoTen, diaChi);
-        this.diemMonhoc1 = diemMonhoc1;
-        this.diemMonhoc2 = diemMonhoc2;
+        setDiemMonhoc1();
+        setDiemMonhoc2();
     }
 }

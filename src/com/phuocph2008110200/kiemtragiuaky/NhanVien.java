@@ -9,8 +9,14 @@ public class NhanVien extends Nguoi{
     public String toString() {
         return super.toString()+" "+tinhLuong()+ " VND";
     }
-    NhanVien(String hoTen,String diaChi,float heSoLuong){
+    public void setHeSoLuong() {
+        do{
+            System.out.println("Nhap vao he so luong cua nhan vien: ");
+            heSoLuong=in.nextFloat();
+        }while(heSoLuong<0);
+    }
+    NhanVien(String hoTen,String diaChi){
         super(hoTen,diaChi);
-        this.heSoLuong = heSoLuong;
+        setHeSoLuong();
     }
 }

@@ -4,10 +4,12 @@ import java.util.ArrayList;
 
 import com.phuocph2008110200.lab7.Animal;
 import com.phuocph2008110200.lab7.Cat;
+import com.phuocph2008110200.lab7.Dog;
 
 public class QuanLyDongVat {
     ArrayList<Animal> list = new ArrayList<Animal>();
     public void add(Animal animal){
+        animal = new Animal();
         list.add(animal);
     }
     public void makeNoise(){
@@ -25,7 +27,7 @@ public class QuanLyDongVat {
             animal.introduce();
         }
     }
-    public Animal searchName(String name){
+    public Animal searchNameCat(String name){
         Cat c = null;
         for(Animal animal: list){
             if(animal instanceof Cat){
@@ -36,5 +38,17 @@ public class QuanLyDongVat {
             }
         }
         return c;
+    }
+    public Animal searchNameDog(String name){
+        Dog d = null;
+        for (Animal animal : list) {
+            if(animal instanceof Dog){
+                Dog dog =(Dog)animal;
+                if(dog.getName().equalsIgnoreCase(name)){
+                    d = dog;
+                }
+            }
+        }
+        return d;
     }
 }

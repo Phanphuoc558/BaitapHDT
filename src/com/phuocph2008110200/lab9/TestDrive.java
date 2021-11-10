@@ -27,9 +27,13 @@ public class TestDrive {
         list.introduce();
         list.roam();
         list.makeNoise();
-        if(list.searchName("Hoang thuong")!=null){
+        if(list.searchNameCat("Hoang thuong")!=null){
             System.out.println("Find out!");
         }else 
+            System.out.println("Not found!");
+        if(list.searchNameDog("Milu")!=null)
+            System.out.println("Find out!");
+        else
             System.out.println("Not found!");
     }
 }

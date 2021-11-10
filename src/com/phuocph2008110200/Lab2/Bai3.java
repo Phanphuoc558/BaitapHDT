@@ -11,5 +11,6 @@ public class Bai3 {
             System.out.println("Số tiền phải trả là: "+x*1000);
         else
             System.out.println("Số tiền phải trả là: "+(50*1000+(x-50)*1200));
+            in.close();
     }
 }

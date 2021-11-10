@@ -5,10 +5,10 @@
 package com.phuocph2008110200.lab7;
 
 public class Canine extends Animal{
-    protected void roam() {
+    public void roam() {
         System.out.println("T yếu nhưng ae t đông OK?");
     }
-    protected void makeNoise() {
+    public void makeNoise() {
         System.out.println("Húúúúuuuuuu!!!");
     }
     protected Canine(){

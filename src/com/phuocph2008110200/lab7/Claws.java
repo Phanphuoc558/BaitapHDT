@@ -5,7 +5,7 @@
 package com.phuocph2008110200.lab7;
 
 public class Claws extends Animal{
-    protected void roam() {
+    public void roam() {
         System.out.println("1 mình t chấp hết!!!");
     }
 }

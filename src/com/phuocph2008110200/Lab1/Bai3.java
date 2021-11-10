@@ -8,5 +8,6 @@ public class Bai3 {
         System.out.print("Nhập vào độ dài cạnh khối lập phương: ");
         int a = in.nextInt();
         System.out.println("Thể tích khối lập phương là: "+Math.pow(a,3));
+        in.close();
     }
 }

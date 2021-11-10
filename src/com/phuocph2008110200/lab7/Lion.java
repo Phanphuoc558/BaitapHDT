@@ -6,7 +6,7 @@ package com.phuocph2008110200.lab7;
 
 public class Lion extends Claws{
     @Override
-    protected void makeNoise() {
+    public void makeNoise() {
         System.out.println("Tiếng gầm của sư tử");
     }
 }

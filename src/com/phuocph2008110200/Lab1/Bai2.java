@@ -12,5 +12,6 @@ public class Bai2 {
         System.out.println("Chu  vi của hình chữ nhật là: "+(a+b)*2);
         System.out.println("Diện tích của hình chữ nhật là: "+a*b);
         System.out.println("Độ dài cạnh nhỏ nhất là: "+Math.min(a,b));
+        in.close();
     }
 }

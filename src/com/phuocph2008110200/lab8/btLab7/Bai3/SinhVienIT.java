@@ -16,5 +16,7 @@ public class SinhVienIT extends SinhVien{
     protected double getDiem() {
         return (2*diemJava+diemCss+diemHtml)/4;
     }
-       
+    public void show(){
+        super.print();
+    }
 }

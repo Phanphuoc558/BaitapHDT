@@ -17,4 +17,7 @@ public class Dog extends Canine{
     protected void bark(){
         System.out.println("Gâu gâu!!!\nCút đi cái thằng người lạ, cắn m h !!!");
     }
+    public Dog(){
+
+    }
 }

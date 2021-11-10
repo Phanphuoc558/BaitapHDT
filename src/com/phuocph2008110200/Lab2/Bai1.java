@@ -16,5 +16,6 @@ public class Bai1 {
                 System.out.println("PT vô nghiệm.");
         else
             System.out.println("PT có nghiệm duy nhất: x = "+(-b/a));
+        in.close();
     }
 }

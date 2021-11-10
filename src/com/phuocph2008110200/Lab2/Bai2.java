@@ -29,6 +29,7 @@ public class Bai2 {
                     System.out.printf("x2 = %.2f.",((-b-Math.sqrt(delta))/(2*a)));
                 }
         }
+        in.close();
     }
     public static void bac1(int b,int c)   {
         if(b==0)

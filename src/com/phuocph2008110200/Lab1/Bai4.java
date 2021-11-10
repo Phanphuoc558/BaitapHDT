@@ -13,5 +13,6 @@ public class Bai4 {
         int c = in.nextInt();
         double  delta = Math.pow(b,2)-4*a*c;
         System.out.print("Căn delta là: "+Math.sqrt(delta));
+        in.close();
     }
 }

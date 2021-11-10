@@ -3,7 +3,7 @@ package com.phuocph2008110200.lab8.btLab7.Bai2;
 public class SinhVien {
     protected String hoTen;
     protected String nganh;
-    public void print(){
+    protected void print(){
         System.out.println("Ho ten SV: "+hoTen);
         System.out.println("Nganh hoc: "+nganh);
         System.out.printf("Diem trung binh: %.2f \n",getDiem());

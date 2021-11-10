@@ -24,6 +24,7 @@ public class Bai4 {
                     default: System.out.println("Mời bạn chọn lại! ");
                 }
             }while(chose!=4);
+        in.close();
         }
         public static void bac1()   {
             Scanner input = new Scanner(System.in);
@@ -41,6 +42,7 @@ public class Bai4 {
                 System.out.println("PT có nghiệm duy nhất x = "+(-b/a));
             System.out.println("Nhập số bất kì để quay lại MENU.");
             int x = input.nextInt();
+            input.close();
         }
         static void bac2()  {
             Scanner sc = new Scanner(System.in);
@@ -65,6 +67,7 @@ public class Bai4 {
             }
             System.out.println("Nhập số bất kì để quay lại MENU.");
             int x = sc.nextInt();
+            sc.close();
         }
         static void tinhtien()  {
             Scanner in = new Scanner(System.in);

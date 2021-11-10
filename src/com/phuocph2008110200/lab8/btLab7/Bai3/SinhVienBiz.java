@@ -14,4 +14,7 @@ public class SinhVienBiz extends SinhVien{
         this.marketing = marketing;
         this.sales = sales;
     }
+    public void show(){
+        super.print();
+    }
 }

@@ -9,7 +9,7 @@ public class Hippo extends Animal{
     public void makeNoise() {
         System.out.println("kêu kiểu hà mã!");
     }
-    Hippo(){
+    public Hippo(){
         System.out.println("Tạo hippo.........");
     }
 }

@@ -9,7 +9,6 @@ import com.phuocph2008110200.lab7.Dog;
 public class QuanLyDongVat {
     ArrayList<Animal> list = new ArrayList<Animal>();
     public void add(Animal animal){
-        animal = new Animal();
         list.add(animal);
     }
     public void makeNoise(){

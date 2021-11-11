@@ -76,7 +76,7 @@
         },
         {
             "name": "(Windows) Launch",
-            "type": "cppvsdbg",
+            "type": "java",
             "request": "launch",
             "program": "enter program name, for example ${workspaceFolder}/a.exe",
             "args": [],

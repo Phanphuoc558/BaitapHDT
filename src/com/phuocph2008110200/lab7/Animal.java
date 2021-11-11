@@ -4,7 +4,7 @@
 */
 package com.phuocph2008110200.lab7;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private String breed;
     private float weight;
